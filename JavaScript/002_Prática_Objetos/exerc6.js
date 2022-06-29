@@ -26,7 +26,7 @@ function Test()    {
 const myObject = new Test;
 const myNewObject = testReturn();
 
-checkingObjects(Test, myObject);
+checkingObjects(Test, myObject); // Positivo!
 
-checkingObjects(testReturn, myNewObject);
-checkingObjects(Object, myNewObject);
+checkingObjects(testReturn, myNewObject); // Negativo!
+checkingObjects(Object, myNewObject); // Positivo!

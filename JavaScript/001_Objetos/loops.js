@@ -13,6 +13,4 @@ for(property in alex)   {
     console.log(`${property}: ${alex[property]}`);
 }
 
-
-
 // O for normal serve mais para arrays

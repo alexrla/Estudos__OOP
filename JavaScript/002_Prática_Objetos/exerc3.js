@@ -13,5 +13,5 @@ function Ninja(ninjaName)    {
 
 const narutinho = new Ninja("Naruto");
 
-console.log(narutinho.ninjaName);
-narutinho.throwShuriken();
+console.log(narutinho.ninjaName); // Naruto
+narutinho.throwShuriken(); // Atirando shuriken...

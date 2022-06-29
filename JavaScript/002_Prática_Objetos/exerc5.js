@@ -28,9 +28,9 @@ function Enemy(enemyName)    {
 const narutinho = new Ninja("Naruto", 3);
 const uchihaMadara = new Enemy("Madara");
 
-console.log(narutinho);
-console.log(uchihaMadara);
+console.log(narutinho); // Ninja { ninjaName: 'Naruto', shurikens: 3, throwShuriken: [Function (anonymous)] }
+console.log(uchihaMadara); // Enemy { enemyName: 'Madara', alive: true }
 
-narutinho.throwShuriken(uchihaMadara);
+narutinho.throwShuriken(uchihaMadara); // Atirando shuriken... Madara morreu!
 
-console.log(uchihaMadara);
+console.log(uchihaMadara); // Enemy { enemyName: 'Madara', alive: false }

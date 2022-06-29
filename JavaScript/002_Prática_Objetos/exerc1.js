@@ -10,7 +10,7 @@ const myObject = {
     myBoolean: true
 };
 
-console.log(myObject.myString);
-console.log(myObject.myNumber);
-console.log(myObject.myBoolean);
-console.log(myObject);
+console.log(myObject.myString); // teste
+console.log(myObject.myNumber); // 12
+console.log(myObject.myBoolean); // true
+console.log(myObject); // { myString: 'teste', myNumber: 12, myBoolean: true }

@@ -16,5 +16,5 @@ const animal = {
     [repeat+"paws"]: 4
 };
 
-console.log(car.quantity_of_doors);
-console.log(animal.quantity_of_paws);
+console.log(car.quantity_of_doors); // 4
+console.log(animal.quantity_of_paws); // 4

@@ -11,4 +11,4 @@ const person = {
     }
 }
 
-person.sayMyName();
+person.sayMyName(); // Meu nome é: Alex

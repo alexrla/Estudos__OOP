@@ -11,5 +11,5 @@ const truck = {
 
 const { load, totalWeight } = truck;
 
-console.log(load);
-console.log(totalWeight);
+console.log(load); // 14
+console.log(totalWeight); // 25.5

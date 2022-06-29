@@ -1,13 +1,13 @@
 const teste = new Function("message", "return arguments");
 
-console.log(teste("Hello, World!"));
-console.log(teste("Hello, World!")[0]);
+console.log(teste("Hello, World!")); // [Arguments] { '0': 'Hello, World!' }
+console.log(teste("Hello, World!")[0]); // Hello, World!
 
 function test(a, b) {
     return a + b;
 }
 
-console.log(test.length);
+console.log(test.length); // 2
 
 const a = {
     name: "Leandro",
@@ -21,5 +21,5 @@ const b = {
     name: "Bianca"
 };
 
-a.sayMyName();
-a.sayMyName.call(b);
+a.sayMyName(); // Meu nome é Leandro
+a.sayMyName.call(b); // Meu nome é Bianca

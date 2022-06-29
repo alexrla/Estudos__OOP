@@ -22,8 +22,8 @@ function Ninja(ninjaName, amountShurikens)    {
 
 const narutinho = new Ninja("Naruto", 3);
 
-console.log(narutinho.ninjaName);
-narutinho.throwShuriken();
-narutinho.throwShuriken();
-narutinho.throwShuriken();
-narutinho.throwShuriken();
+console.log(narutinho.ninjaName); // Naruto
+narutinho.throwShuriken(); // Atirando shuriken...
+narutinho.throwShuriken(); // Atirando shuriken...
+narutinho.throwShuriken(); // Atirando shuriken...
+narutinho.throwShuriken(); // As suas shurikens acabaram
