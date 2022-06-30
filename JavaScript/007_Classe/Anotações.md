@@ -49,14 +49,3 @@
 
 - **Forma de criar herança com as classes;**
 - **Utilizamos a palavra reservada _extends_, para fazer com que uma classe herde propriedades de outra;**
-
-
-
-
-
-
-
-
-
-### 
-
