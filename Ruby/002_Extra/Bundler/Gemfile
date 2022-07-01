@@ -1,0 +1,6 @@
+# De onde virão as gems
+source  'https://rubygems.org';
+
+# gems
+gem 'cpf_utils';
+gem 'lerolero_generator';
